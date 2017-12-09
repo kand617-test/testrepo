@@ -58,7 +58,7 @@ public class APIDescriptionValidationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4913234496174514796L;
+            private static final long serialVersionUID = 4688694915787118775L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
                     put( "accept", "application/json" );
@@ -67,7 +67,7 @@ public class APIDescriptionValidationController extends BaseController {
 
         //load all fields for the outgoing API request
         Map<String, Object> _parameters = new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4624440867588894655L;
+            private static final long serialVersionUID = 5729392188372358746L;
             {
                     put( "body", body );
             }
@@ -154,7 +154,7 @@ public class APIDescriptionValidationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4708442697899052985L;
+            private static final long serialVersionUID = 5743431468573245857L;
             {
                     put( "descriptionUrl", descriptionUrl );
             }});
@@ -163,7 +163,7 @@ public class APIDescriptionValidationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5403076593527185840L;
+            private static final long serialVersionUID = 5334494845245232028L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
                     put( "accept", "application/json" );
@@ -251,7 +251,7 @@ public class APIDescriptionValidationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5046147288470482006L;
+            private static final long serialVersionUID = 4629061752774202095L;
             {
                     put( "apikey", apikey );
             }});
@@ -260,7 +260,7 @@ public class APIDescriptionValidationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5471882107359591100L;
+            private static final long serialVersionUID = 5550015840779093463L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
                     put( "accept", "application/json" );

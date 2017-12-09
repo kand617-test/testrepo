@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 public class ValidateAnAPIDescriptionResponse 
         extends java.util.Observable
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5046970346503139333L;
+    private static final long serialVersionUID = 5714697771651738746L;
     private List<Object> errors;
     private List<Object> warnings;
     private List<Object> messages;

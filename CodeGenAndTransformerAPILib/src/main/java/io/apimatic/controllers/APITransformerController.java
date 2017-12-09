@@ -58,7 +58,7 @@ public class APITransformerController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5287503351138988174L;
+            private static final long serialVersionUID = 4789835038424431758L;
             {
                     put( "format", (format != null) ? format.value() : null );
                     put( "apikey", apikey );
@@ -68,7 +68,7 @@ public class APITransformerController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5106829215707864149L;
+            private static final long serialVersionUID = 4914959956634211121L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -156,7 +156,7 @@ public class APITransformerController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4892479074947720504L;
+            private static final long serialVersionUID = 5338014571887088059L;
             {
                     put( "format", (format != null) ? format.value() : null );
                     put( "descriptionUrl", descriptionUrl );
@@ -166,7 +166,7 @@ public class APITransformerController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4738897054815282291L;
+            private static final long serialVersionUID = 5204152656519841531L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -254,7 +254,7 @@ public class APITransformerController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5227866563809908749L;
+            private static final long serialVersionUID = 5706676862221227698L;
             {
                     put( "format", (format != null) ? format.value() : null );
             }});
@@ -263,7 +263,7 @@ public class APITransformerController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5079240432853021433L;
+            private static final long serialVersionUID = 4786659961640231258L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -271,7 +271,7 @@ public class APITransformerController extends BaseController {
 
         //load all fields for the outgoing API request
         Map<String, Object> _parameters = new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4776539802316939837L;
+            private static final long serialVersionUID = 5694291849713431468L;
             {
                     put( "file", file );
             }

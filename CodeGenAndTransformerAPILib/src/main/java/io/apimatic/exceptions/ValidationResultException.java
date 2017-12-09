@@ -14,7 +14,7 @@ import io.apimatic.models.*;
 public class ValidationResultException 
         extends APIException
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5260587487950464929L;
+    private static final long serialVersionUID = 4928682917291180346L;
     private boolean success;
     private List<Message> errors;
     private List<Message> warnings;
