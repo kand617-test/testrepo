@@ -63,7 +63,7 @@ public class CodeGenerationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5252097165209428471L;
+            private static final long serialVersionUID = 5545584246359769123L;
             {
                     put( "name", name );
                     put( "format", (format != null) ? format.value() : null );
@@ -75,7 +75,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4624750182796608951L;
+            private static final long serialVersionUID = 5394438864431067641L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -83,7 +83,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all fields for the outgoing API request
         Map<String, Object> _parameters = new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5668411966685763833L;
+            private static final long serialVersionUID = 5297540384766731870L;
             {
                     put( "body", body );
             }
@@ -180,7 +180,7 @@ public class CodeGenerationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5014601898088111042L;
+            private static final long serialVersionUID = 5332853546730428109L;
             {
                     put( "template", (template != null) ? template.value() : null );
                     put( "format", (format != null) ? format.value() : null );
@@ -193,7 +193,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4795275232995538304L;
+            private static final long serialVersionUID = 5529138176593161053L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -290,7 +290,7 @@ public class CodeGenerationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5321672891710058881L;
+            private static final long serialVersionUID = 5106856309506611287L;
             {
                     put( "name", name );
                     put( "format", (format != null) ? format.value() : null );
@@ -302,7 +302,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5530715618297956942L;
+            private static final long serialVersionUID = 5040940477374769288L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -310,7 +310,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all fields for the outgoing API request
         Map<String, Object> _parameters = new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5707614624675799570L;
+            private static final long serialVersionUID = 5518440729992076303L;
             {
                     put( "body", body );
             }
@@ -407,7 +407,7 @@ public class CodeGenerationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4650118297355643417L;
+            private static final long serialVersionUID = 5552640717934527303L;
             {
                     put( "template", (template != null) ? template.value() : null );
                     put( "format", (format != null) ? format.value() : null );
@@ -420,7 +420,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4928121008753737440L;
+            private static final long serialVersionUID = 5095540337779624885L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -514,7 +514,7 @@ public class CodeGenerationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5055322547494605695L;
+            private static final long serialVersionUID = 4817751744096314208L;
             {
                     put( "apikey", apikey );
                     put( "template", (template != null) ? template.value() : null );
@@ -525,7 +525,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5736645444130594030L;
+            private static final long serialVersionUID = 4748767599570621095L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -619,7 +619,7 @@ public class CodeGenerationController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5705873829813282564L;
+            private static final long serialVersionUID = 5072560315777693414L;
             {
                     put( "apikey", apikey );
                     put( "template", (template != null) ? template.value() : null );
@@ -630,7 +630,7 @@ public class CodeGenerationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5581651512445076529L;
+            private static final long serialVersionUID = 5200234531713317489L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
